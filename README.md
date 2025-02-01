@@ -1,6 +1,6 @@
 # DevOps Project: CI/CD Pipeline with Jenkins, SonarQube, and Docker
 
-[!image alt](https://github.com/rajatrajat0210/Devops_Proj/blob/master/CI:CD-Pipeline.jpg?raw=true)
+![image alt](https://github.com/rajatrajat0210/Devops_Proj/blob/master/CI:CD-Pipeline.jpg?raw=true)
 
 
 This project demonstrates a DevOps pipeline setup using **AWS EC2 instances** (virtual machines), **Jenkins** for Continuous Integration/Continuous Deployment (CI/CD), **SonarQube** for code quality checks, and **Docker** for containerization. The entire setup is designed to automatically integrate code from **GitHub**, run quality checks, and deploy the application in containers.
@@ -34,14 +34,14 @@ Before you begin, make sure you have the following:
 
 ### 1. **AWS EC2 Instances**
 
-[!image alt](https://github.com/rajatrajat0210/Devops_Proj/blob/master/AWS_EC2.jpg?raw=true)
+![image alt](https://github.com/rajatrajat0210/Devops_Proj/blob/master/AWS_EC2.jpg?raw=true)
 
 - Set up **3 EC2 instances**:
   - **Jenkins server** (for CI/CD)
   - **SonarQube server** (for code quality analysis)
   - **Application Docker server** (for containerization)
 
-[!image alt](https://github.com/rajatrajat0210/Devops_Proj/blob/master/VM's_servers.jpg?raw=true)
+![image alt](https://github.com/rajatrajat0210/Devops_Proj/blob/master/VM's_servers.jpg?raw=true)
 
 
 ### 2. **Jenkins Setup**
@@ -146,7 +146,7 @@ Push Code to GitHub:
 Developers push code to the GitHub repository.
 Jenkins Triggers Build:
 
-[!image alt](https://github.com/rajatrajat0210/Devops_Proj/blob/master/jenkins_build.jpg?raw=true)
+![image alt](https://github.com/rajatrajat0210/Devops_Proj/blob/master/jenkins_build.jpg?raw=true)
 
 
 Jenkins detects the code change via GitHub Webhook.
