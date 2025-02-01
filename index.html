@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajat's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            animation: fadeIn 2s ease-out;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #f1f1f1;
+            margin: 10px 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            background-color: #444;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        nav ul li a {
+            color: #f1f1f1;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #f1f1f1;
+            color: #333;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #ff6347;
+        }
+
+        .experience-item, .project-item {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .experience-item:hover, .project-item:hover {
+            transform: scale(1.05);
+        }
+
+        .experience-item ul {
+            text-align: left;
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .experience-item ul li {
+            margin: 5px 0;
+        }
+
+        .project-item p {
+            font-size: 1.1rem;
+            color: #ccc;
+        }
+
+        a {
+            color: #ff6347;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            color: #f1f1f1;
+            margin-top: 40px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rajat</h1>
+        <p>Software Engineer | Automation Tester | Cloud Enthusiast</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>HP Product Associate</h3>
+            <p><strong>Acosta, BestBuy | July 2024 – January 2025</strong></p>
+            <ul>
+                <li>Automated inventory tracking using Python scripting.</li>
+                <li>Developed Power BI dashboards to visualize key metrics.</li>
+                <li>Utilized Salesforce CRM APIs and SQL to streamline operations.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Software Engineering Intern</h3>
+            <p><strong>CGI | January 2022 – Dec 2022</strong></p>
+            <ul>
+                <li>Optimized SQL queries, improving efficiency by 25%.</li>
+                <li>Used Selenium, Postman, and SoapUI for test automation.</li>
+                <li>Implemented CI/CD pipelines integrating Jira, SQL, and Azure.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-item">
+            <h3>AI-Powered Personal Portfolio Chatbot</h3>
+            <p>Developed a chatbot using LangChain, Ollama LLM, and Streamlit, allowing users to interact with my portfolio.</p>
+        </div>
+        <div class="project-item">
+            <h3>Cloud Native Resource Monitoring Tool</h3>
+            <p>Built a Python-based monitoring tool using Flask, Kubernetes, Docker, and AWS EKS.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>York University (Lassonde School of Engineering)</strong></p>
+        <p>Bachelor of Engineering (B.Eng) in Computer Engineering | 2024</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:rajat.rajat0210@gmail.com">rajat.rajat0210@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/rajat-rajat12/" target="_blank">Rajat's LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/rajatrajat0210" target="_blank">Rajat's GitHub</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rajat. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
