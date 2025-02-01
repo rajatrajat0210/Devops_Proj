@@ -155,9 +155,11 @@ The image is pushed to Docker Hub or AWS ECR.
 Deploy the Docker Container:
 
 The Docker container is deployed to the Docker EC2 instance for testing or production.
-📜 Conclusion
+
+
+## 📜 Conclusion
 This project integrates Jenkins for automating the CI/CD pipeline, SonarQube for continuous code quality checks, and Docker for containerizing applications. The entire pipeline is hosted on AWS EC2 instances, ensuring scalability and reliability.
 
-💬 Contribution
+## 💬 Contribution
 Feel free to contribute to this project by raising issues, submitting pull requests, or suggesting improvements. 😊
 
